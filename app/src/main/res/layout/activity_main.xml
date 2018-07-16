@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pack.week2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#9E9E9E"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="3+0.1415926"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="16dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="3.1415926"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="254dp"
+            tools:layout_editor_absoluteY="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#424242"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BReset"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_reset"/>
+
+            <Button
+                android:id="@+id/BChange"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_changesign"/>
+
+            <Button
+                android:id="@+id/BPercent"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_percent"/>
+
+            <Button
+                android:id="@+id/BDivide"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_divide"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_9"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_8"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_7"/>
+
+            <Button
+                android:id="@+id/BTimes"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_times"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_6"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_5"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_4"/>
+
+            <Button
+                android:id="@+id/BMinus"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_minus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_3"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_2"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_1"/>
+
+            <Button
+                android:id="@+id/BPlus"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="1"
+                android:background="@drawable/calculator_plus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/calculator_0"/>
+
+            <Button
+                android:id="@+id/BPoint"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="0.75"
+                android:background="@drawable/calculator_point"/>
+
+            <Button
+                android:id="@+id/BEqual"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/calculator_equals"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
