@@ -1,5 +1,7 @@
 package pack.week2;
 
+import android.util.Log;
+
 /**
  * Created by user on 2018/7/16.
  */
@@ -36,9 +38,11 @@ public class Human
     public final static int ICE_STAFF = 7;
     public final static int DEFAULT_STAFF = 8;
 
-    public Human () {
+    public Human ()
+    {
     }
-    public void attack () {
-        System. out .println( "Fist Attack!" ) ;
+    public void attack ()
+    {
+        Log.e("human", "Fist Attack!" ) ;
     }
 }

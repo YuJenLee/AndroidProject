@@ -1,5 +1,7 @@
 package pack.week2;
 
+import android.util.Log;
+
 /**
  * Created by user on 2018/7/16.
  */
@@ -19,20 +21,20 @@ public class Hunter extends Human
     {
         this.weapon=weapon;
     }
-    @Override
+    /*@Override
     public void attack()
     {
         switch(weapon)
         {
             case FIRE_BOW:
-                System.out.println( "Fire Arrow" ) ;
+                Log.e("hunter","Fire Arrow") ;
                 break;
             case ICE_BOW:
-                System.out.println( "Ice Arrow" ) ;
+                Log.e("hunter", "Ice Arrow" ) ;
                 break;
             case DEFAULT_BOW:
-                System.out.println( "Arrow" ) ;
+                Log.e("hunter", "Arrow" ) ;
                 break;
         }
-    }
+    }*/
 }
